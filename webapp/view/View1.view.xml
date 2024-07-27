@@ -1,0 +1,141 @@
+<mvc:View 
+    controllerName="com.projects.shoekart.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" 
+    displayBlock="true"
+    xmlns="sap.m">
+
+    <Page 
+        id="page" 
+        title="{i18n>title}" 
+        class="bg">
+
+        <headerContent>
+            <Bar 
+                class="bar">
+                
+                <contentLeft>
+                    <Image 
+                        src="../images/logo-shoe.png" 
+                        class="img" />
+                    <Text 
+                        text="ShoeKart" 
+                        class="logo" />
+                </contentLeft>
+
+                <contentMiddle>
+                    <Text 
+                        text="Sale is Live, Shop Now" 
+                        class="randomtxt" />
+                    <Text 
+                        id="liveTimeText" 
+                        text="{/liveTime}" 
+                        class="randomtxt" />
+                </contentMiddle>
+
+                <contentRight>
+                    <Button 
+                        icon="sap-icon://contacts" 
+                        text="Contact Us" 
+                        type="Success" 
+                        press="onContact" />
+                    <Button 
+                        icon="sap-icon://marketing-campaign" 
+                        text="Raise a Query" 
+                        type="Critical" 
+                        press="onRaiseQuery" />
+                </contentRight>
+                
+            </Bar>
+        </headerContent>
+
+        <content>
+            <Text 
+                text="Step into Style: Where Every Shoe Tells a Story!" 
+                class="heading" />
+            
+            <FlexBox 
+                justifyContent="Center" 
+                alignItems="Center" 
+                direction="Column" 
+                width="100%" 
+                height="70vh">
+
+                <VBox 
+                    class="form"
+                    alignItems="Center">
+                    
+                    <HBox 
+                        justifyContent="Center"
+                        alignItems="Center">
+                        
+                        <Image 
+                            src="../images/login.png" 
+                            class="img regi" />
+                            </HBox>
+                        <Text 
+                            text="Register" 
+                            class="reg" />
+                    
+                    
+                    <Label 
+                        text="UserName:" 
+                        class="lang" />
+                    <Input 
+                        id="idinun" 
+                        value="{userData>/name}" 
+                        placeholder="Enter Your Name"  
+                        width="95%" 
+                        maxLength="20" 
+                        type="Text" />
+                    
+                    <Label 
+                        text="Password:" 
+                        class="lang" />
+                    <Input 
+                        id="idinps" 
+                        placeholder="Enter Your Password"  
+                        width="95%" 
+                        type="Password" 
+                        showValueHelp="true" 
+                        valueHelpRequest="ShowHidePass" />
+                    
+                    <Button 
+                        text="Login" 
+                        icon="sap-icon://visits" 
+                        press="onLogin" 
+                        type="Ghost" 
+                        class="btn" />
+                    
+                    <Text 
+                        text="Sign in will be available Soon!" 
+                        class="signin" />
+                
+                </VBox>
+                
+            </FlexBox>
+        </content>
+
+        <footer>
+            <Bar>
+                <contentLeft>
+                    <Text 
+                        text="All Rights Reserved @2024" 
+                        class="randomtxt1" />
+                </contentLeft>
+
+                <contentMiddle>
+                    <Text 
+                        text="Shoekart: Your Destination for Footwear Fashion!" 
+                        class="logo1" />
+                </contentMiddle>
+
+                <contentRight>
+                    <Text 
+                        text="Created By Gaurav" 
+                        class="randomtxt1" />
+                </contentRight>
+            </Bar>
+        </footer>
+
+    </Page>
+</mvc:View>
