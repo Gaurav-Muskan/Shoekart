@@ -83,7 +83,17 @@
           "target": [
             "TargetView1"
           ]
-        }
+        },
+        {
+          "name": "details",
+          "pattern": "detail",
+          "target": "details"
+      },
+      {
+        "name": "logout",
+        "pattern": "log",
+        "target": "logout"
+    }
       ],
       "targets": {
         "TargetView1": {
@@ -91,8 +101,21 @@
           "transition": "slide",
           "clearControlAggregation": false,
           "viewId": "View1",
-          "viewName": "View1"
-        }
+          "viewName": "View1",
+          "viewLevel": 1
+        },
+        "details": {
+            "viewType": "XML",
+            "viewName": "Details",
+            "transition": "slide",
+            "viewLevel": 2
+        },
+        "logout": {
+          "viewType": "XML",
+          "viewName": "Logout",
+          "transition": "slide",
+          "viewLevel": 3
+      }
       }
     },
     "rootView": {
