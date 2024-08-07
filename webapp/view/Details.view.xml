@@ -3,7 +3,193 @@
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
         <content>
-        <Text text="HIi"></Text>
+            <SplitApp id="SplitAppDemo" initialDetail="detail" initialMaster="master">
+                <detailPages>
+                    <Page id="detail" title="Formal Shoes">
+                        <VBox>
+                            <HBox>
+                                <VBox class="vbox">
+                                    <Image src="../images/oxford.jpg" class="imgcd"/>
+                                    <Text text="Oxford" class="txtcd"></Text>
+                                    <Text text="Price: ₹1000" class="txtcd1"></Text>
+                                </VBox>
+                                <VBox class="vbox">
+                                    <Image src="../images/derby.jpg" class="imgcd"/>
+                                    <Text text="Derby" class="txtcd"></Text>
+                                    <Text text="Price: ₹3000" class="txtcd1"></Text>
+                                </VBox>
+                                <VBox class="vbox">
+                                    <Image src="../images/brogues.jpg" class="imgcd"/>
+                                    <Text text="Brogues" class="txtcd"></Text>
+                                    <Text text="Price: ₹2500" class="txtcd1"></Text>
+                                </VBox>
+                            </HBox>
+                            <HBox>
+                                <VBox class="vbox">
+                                    <Image src="../images/chelsea.jpg" class="imgcd"/>
+                                    <Text text="Chelsea" class="txtcd"></Text>
+                                    <Text text="Price: ₹1200" class="txtcd1"></Text>
+                                </VBox>
+                                <VBox class="vbox">
+                                    <Image src="../images/loafer.jpg" class="imgcd"/>
+                                    <Text text="Loafers" class="txtcd"></Text>
+                                    <Text text="Price: ₹1500" class="txtcd1"></Text>
+                                </VBox>
+                                <VBox class="vbox">
+                                    <Image src="../images/captoe.jpg" class="imgcd"/>
+                                    <Text text="Cap-Toe" class="txtcd"></Text>
+                                    <Text text="Price: ₹800" class="txtcd1"></Text>
+                                </VBox>
+                            </HBox>
+                        </VBox>
+                    </Page>
+                    <Page id="detail1" title="Casual Shoes">
+                        <VBox>
+                            <HBox>
+                                <VBox class="vbox">
+                                    <Image src="../images/trainer.jpg" class="imgcd"/>
+                                    <Text text="Trainers" class="txtcd"></Text>
+                                    <Text text="Price: ₹500" class="txtcd1"></Text>
+                                </VBox>
+                                <VBox class="vbox">
+                                    <Image src="../images/deck.jpg" class="imgcd"/>
+                                    <Text text="Deck" class="txtcd"></Text>
+                                    <Text text="Price: ₹800" class="txtcd1"></Text>
+                                </VBox>
+                                <VBox class="vbox">
+                                    <Image src="../images/moccasins.jpg" class="imgcd"/>
+                                    <Text text="Moccasins" class="txtcd"></Text>
+                                    <Text text="Price: ₹400" class="txtcd1"></Text>
+                                </VBox>
+                            </HBox>
+                            <HBox>
+                                <VBox class="vbox">
+                                    <Image src="../images/sandals.jpg" class="imgcd"/>
+                                    <Text text="Sandals" class="txtcd"></Text>
+                                    <Text text="Price: ₹200" class="txtcd1"></Text>
+                                </VBox>
+                                <VBox class="vbox">
+                                    <Image src="../images/canvas.jpg" class="imgcd"/>
+                                    <Text text="Canvas" class="txtcd"></Text>
+                                    <Text text="Price: ₹600" class="txtcd1"></Text>
+                                </VBox>
+                                <VBox class="vbox">
+                                    <Image src="../images/espadrilles.jpg" class="imgcd"/>
+                                    <Text text="Espadrilles" class="txtcd"></Text>
+                                    <Text text="Price: ₹300" class="txtcd1"></Text>
+                                </VBox>
+                            </HBox>
+                        </VBox>
+                    </Page>
+                    <Page id="detail2" title="Sports Shoes">
+                        <VBox>
+                            <HBox>
+                                <VBox class="vbox">
+                                    <Image src="../images/running.jpg" class="imgcd"/>
+                                    <Text text="Running" class="txtcd"></Text>
+                                    <Text text="Price: ₹700" class="txtcd1"></Text>
+                                </VBox>
+                                <VBox class="vbox">
+                                    <Image src="../images/training.jpg" class="imgcd"/>
+                                    <Text text="Training" class="txtcd"></Text>
+                                    <Text text="Price: ₹800" class="txtcd1"></Text>
+                                </VBox>
+                                <VBox class="vbox">
+                                    <Image src="../images/basketball.jpg" class="imgcd"/>
+                                    <Text text="Basketball" class="txtcd"></Text>
+                                    <Text text="Price: ₹2000" class="txtcd1"></Text>
+                                </VBox>
+                            </HBox>
+                            <HBox>
+                                <VBox class="vbox">
+                                    <Image src="../images/soccor.jpg" class="imgcd"/>
+                                    <Text text="Soccer" class="txtcd"></Text>
+                                    <Text text="Price: ₹1000" class="txtcd1"></Text>
+                                </VBox>
+                                <VBox class="vbox">
+                                    <Image src="../images/tennis.jpg" class="imgcd"/>
+                                    <Text text="Tennis" class="txtcd"></Text>
+                                    <Text text="Price: ₹600" class="txtcd1"></Text>
+                                </VBox>
+                                <VBox class="vbox">
+                                    <Image src="../images/golf.jpg" class="imgcd"/>
+                                    <Text text="Golf" class="txtcd"></Text>
+                                    <Text text="Price: ₹5000" class="txtcd1"></Text>
+                                </VBox>
+                            </HBox>
+                        </VBox>
+                    </Page>
+                    <Page id="detail3" title="Boots">
+                        <VBox>
+                            <HBox>
+                                <VBox class="vbox">
+                                    <Image src="../images/ankle.jpg" class="imgcd"/>
+                                    <Text text="Ankle" class="txtcd"></Text>
+                                    <Text text="Price: ₹5000" class="txtcd1"></Text>
+                                </VBox>
+                                <VBox class="vbox">
+                                    <Image src="../images/cowboy.jpg" class="imgcd"/>
+                                    <Text text="Cowboy" class="txtcd"></Text>
+                                    <Text text="Price: ₹8000" class="txtcd1"></Text>
+                                </VBox>
+                                <VBox class="vbox">
+                                    <Image src="../images/combat.jpg" class="imgcd"/>
+                                    <Text text="Combat" class="txtcd"></Text>
+                                    <Text text="Price: ₹4000" class="txtcd1"></Text>
+                                </VBox>
+                            </HBox>
+                            <HBox>
+                                <VBox class="vbox">
+                                    <Image src="../images/hiking.jpg" class="imgcd"/>
+                                    <Text text="Hiking" class="txtcd"></Text>
+                                    <Text text="Price: ₹2000" class="txtcd1"></Text>
+                                </VBox>
+                                <VBox class="vbox">
+                                    <Image src="../images/riding.jpg" class="imgcd"/>
+                                    <Text text="Riding" class="txtcd"></Text>
+                                    <Text text="Price: ₹6000" class="txtcd1"></Text>
+                                </VBox>
+                                <VBox class="vbox">
+                                    <Image src="../images/fashion.jpg" class="imgcd"/>
+                                    <Text text="Fashion" class="txtcd"></Text>
+                                    <Text text="Price: ₹3000" class="txtcd1"></Text>
+                                </VBox>
+                            </HBox>
+                        </VBox>
+                    </Page>
+                </detailPages>
+                <masterPages>
+                    <Page id="master" backgroundDesign="List">
+                        <headerContent>
+                            <Bar>
+                                <contentLeft>
+                                    <Text text="Shoes Categories" class="daily"></Text>
+                                </contentLeft>
+                            </Bar>
+                        </headerContent>
+                        <content>
+                            <List>
+                                <items>
+                                    <StandardListItem title="Formal Shoes" type="Navigation" press="onPressNavToDetail"/>
+                                    <StandardListItem title="Casual Shoes" type="Navigation" press="onPressNavToDetail1"/>
+                                    <StandardListItem title="Sports Shoes" type="Navigation" press="onPressNavToDetail2"/>
+                                    <StandardListItem title="Boots" type="Navigation" press="onPressNavToDetail3"/>
+                                </items>
+                            </List>
+                        </content>
+                        <footer>
+                            <Bar>
+                                <contentLeft>
+                                    <Text text="{userData>/name}" class="user"></Text>
+                                </contentLeft>
+                                <contentRight>
+                                    <Button text="Logout" type="Negative" press="onGoLogoutPage"></Button>
+                                </contentRight>
+                            </Bar>
+                        </footer>
+                    </Page>
+                </masterPages>
+            </SplitApp>
         </content>
     </Page>
 </mvc:View>
